@@ -51,7 +51,7 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image.fit"><img src="images/CNT_flip_rot_example.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>CNT Metrics</h2>
@@ -70,7 +70,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image.fit"><img src="images/add_skill.png" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>SubRes</h2>
@@ -94,11 +94,21 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="images/sf_bay_water.png" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Flood Prediction from Satellite Images</h2>
+									<p>
+										A model was developed that used the time history of water surface area
+										 in a region of interest to predict the likeliness of a flood. The 
+										 water surface area, as a fraction of total area, was extracted from 
+										 Landsat 8 images using the normalized difference water index (NDWI). 
+										 Google Earth Engine was used both as a source of Landsat 8 images and 
+										 to extract the NDWI form each image. A flood occurrence classifier 
+										 model was written in Python using Scikit-learn. The model was trained 
+										 against historic flood data from the National Oceanic and Atmospheric 
+										 Administration NOAA. 
+									</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -154,29 +164,7 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
+
 								<section>
 									<ul class="contact">
 										<li>
@@ -195,7 +183,7 @@
 										</li>
 									</ul>
 								</section>
-							</div>
+
 						</div>
 					</section>
 
